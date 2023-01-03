@@ -1,12 +1,12 @@
 # My-CV
 create my cv
 ## Steps
-1. Idea <br />
+1. Idea 
 - create a CV
 
-2. Realisation<br />
-- create a maquette with a **responsive design** (*mobile and desktop*)<br />
-- push your project on **Github** (using command line)<br />
-- use *grid and flex* in your code<br />
+2. Realisation
+- create a maquette with a **responsive design** (*mobile and desktop*)
+- push your project on **Github** (using command line)
+- use *grid and flex* in your code
 - use a contact form
 - use a google map
