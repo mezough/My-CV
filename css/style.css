@@ -201,4 +201,10 @@ line-height: 1.5;
     grid-template-columns: 1fr;
     grid-template-rows: repeat(8, 40px);
     width: 100%;
+    color: #F5EFDC;
+}
+
+.contact-text .message .long-message{
+
+
 }
