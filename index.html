@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,13 +8,17 @@
     <title>My-CV</title>
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/all.min.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Carter+One&family=Montserrat:wght@100;200;400;700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Carter+One&family=Montserrat:wght@100;200;400;700&display=swap"
+        rel="stylesheet">
 </head>
+
 <body>
     <script src="js/all.min.js"></script>
     <script src="js/script.js"></script>
     <nav>
-        <div class="navbar">
+        <!-- <div class="navbar">
            <ul>
             <li><a href="#">About</a></li>
             <li><a href="#">Service</a></li>
@@ -21,73 +26,113 @@
             <li><a href="#">Skills</a></li>
             <li><a href="#">Contact</a></li>
            </ul> 
+        </div> -->
+
+        <!-- ----------------------------------------------------- -->
+
+        <div class="topnav" id="myTopnav">
+            <a href="#home" class="active">About</a>
+            <a href="#news">Service</a>
+            <a href="#contact">Work</a>
+            <a href="#about">Skills</a>
+            <a href="#about">Contact</a>
+            <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                <i class="fa fa-bars"></i>
+            </a>
         </div>
+
     </nav>
 
     <div class="main">
-        <div class="article1"><p>Hello I'm <span>Mezough</span> <br> an apparentice of the WEB</p></div>
+        <div class="article1">
+            <p>Hello I'm <span>Mezough</span> <br> an apparentice of the WEB</p>
+        </div>
         <div class="avatar"><img src="imgs/zhanarys-dakhiyev-WMlRkqt1vII-unsplash-modified.png" alt=""> </div>
-        <div class="article2"><p>I'am a <span>Photographer</span> and a coffee lover</p></div>
+        <div class="article2">
+            <p>I'am a <span>Photographer</span> and a coffee lover</p>
+        </div>
     </div>
     <hr>
 
     <div class="article">
-        <div class="title"><h2>What <span>I DO</span> </h2></div>
-<div class="code">
-    <i class="fa-solid fa-laptop-code fa-5x"></i>
-    <h3>Code</h3>
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis labore inventore aliquid, itaque quaerat in consequuntur. Molestias iure tempora asperiores consequuntur debitis, nostrum odio similique corrupti et recusandae saepe! Harum!</p>
-</div>  
-
-<div class="photo"> 
-    <i class="fa-solid fa-camera fa-5x"></i>
-    <h3>Photo</h3>
-<p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Illum, eligendi maiores perspiciatis, saepe deleniti doloribus eum quidem dolores eveniet assumenda quasi veritatis? Cupiditate debitis, dolor ullam molestias dolore veritatis itaque.</p>
-</div> 
-
-<div class="Coffee"> 
-    <i class="fa-solid fa-mug-hot fa-5x"></i>
-    <h3>Coffee</h3>
-    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Illum, eligendi maiores perspiciatis, saepe deleniti doloribus eum quidem dolores eveniet assumenda quasi veritatis? Cupiditate debitis, dolor ullam molestias dolore veritatis itaque.</p>
-</div>  
-</div>
-<hr>
-
-<div class="section-projects">
-    <div class="title"><h2>Some of my <span> Projects</span> </h2></div>
-    <div class="slide-images"> <img src="imgs/backg31920x1080-windows-7.jpg" alt=""></div>
-</div>
-
-<hr>
-
-<div class="section-skills">
-    <div class="title"><h2>Skills</h2></div>
-    <!-- <i class="fa-brands fa-css3-alt fa-5x"></i> -->
-</div>
-
-<hr>
-
-<div class="contact">
-    <div class="title"><h2>Contact</h2></div>
-    <div class="contact-me">
-        <div class="contact-text">
-            <div class="name"><label for="name">Name:</label></div>
-            <div><input type="text" name="name" placeholder="your name..."></div>
-            <div class="email"><label for="email">Email:</label></div>
-            <div><input type="email" name="email" placeholder="your email..."></div>
-            
-            <div class="phone"><label for="phone">Phone:</label></div>
-            <div><input type="phone" name="phone" placeholder="0033-..."></div>
-            
-            <div class="message"><label for="message">Message:</label></div>
-            <div class="long-message"><input type="text" name="message" placeholder="your message..." ></div>
-        <div><input type="submit" value="submit"></div>
+        <div class="title">
+            <h2>What <span>I DO</span> </h2>
         </div>
-        <div class="map">
-            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d92947.66798340784!2d5.310437073832478!3d43.28044880300441!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x12c9bf4344da5333%3A0x40819a5fd970220!2sMarseille!5e0!3m2!1sen!2sfr!4v1672911041573!5m2!1sen!2sfr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        <div class="code">
+            <i class="fa-solid fa-laptop-code fa-5x"></i>
+            <h3>Code</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis labore inventore aliquid, itaque
+                quaerat in consequuntur. Molestias iure tempora asperiores consequuntur debitis, nostrum odio similique
+                corrupti et recusandae saepe! Harum!</p>
+        </div>
+
+        <div class="photo">
+            <i class="fa-solid fa-camera fa-5x"></i>
+            <h3>Photo</h3>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Illum, eligendi maiores perspiciatis, saepe
+                deleniti doloribus eum quidem dolores eveniet assumenda quasi veritatis? Cupiditate debitis, dolor ullam
+                molestias dolore veritatis itaque.</p>
+        </div>
+
+        <div class="Coffee">
+            <i class="fa-solid fa-mug-hot fa-5x"></i>
+            <h3>Coffee</h3>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Illum, eligendi maiores perspiciatis, saepe
+                deleniti doloribus eum quidem dolores eveniet assumenda quasi veritatis? Cupiditate debitis, dolor ullam
+                molestias dolore veritatis itaque.</p>
         </div>
     </div>
-</div>
+    <hr>
+
+    <div class="section-projects">
+        <div class="title">
+            <h2>Some of my <span> Projects</span> </h2>
+        </div>
+        <div class="slide-images"> <img src="imgs/backg31920x1080-windows-7.jpg" alt=""></div>
+    </div>
+
+    <hr>
+
+    <div class="section-skills">
+        <div class="title">
+            <h2>Skills</h2>
+        </div>
+        <i class="fa-brands fa-css3-alt fa-5x"></i>
+    </div>
+
+    <hr>
+
+    <div class="contact">
+        <div class="title">
+            <h2>Contact</h2>
+        </div>
+        <div class="contact-me">
+            <div class="contact-text">
+
+                <div class="name"><label for="name">Name:</label></div>
+                <div><input type="text" name="name" placeholder="your name..." id="name"></div>
+
+                <div class="email"><label for="email">Email:</label></div>
+                <div><input type="email" name="email" placeholder="your email..." id="email"></div>
+
+                <div class="phone"><label for="tel">Phone:</label></div>
+                <div><input type="tel" name="phone" placeholder="0033-..." id="tel"></div>
+
+                <div class="message"><label for="message">Message:</label></div>
+                <div class="long-message"><input type="text" name="message" placeholder="your message..." id="message">
+                </div>
+
+                <div id="submit"><input type="submit" value="submit"></div>
+            </div>
+            <div class="map">
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d92947.66798340784!2d5.310437073832478!3d43.28044880300441!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x12c9bf4344da5333%3A0x40819a5fd970220!2sMarseille!5e0!3m2!1sen!2sfr!4v1672911041573!5m2!1sen!2sfr"
+                    width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+        </div>
+    </div>
 
 </body>
+
 </html>
